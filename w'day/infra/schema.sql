@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS Sales (
+    Id INT IDENTITY(1,1) PRIMARY KEY,
+    OrderDate DATE NOT NULL,
+    Region NVARCHAR(100) NOT NULL,
+    Product NVARCHAR(200) NOT NULL,
+    Quantity INT NOT NULL,
+    UnitPrice DECIMAL(18, 2) NOT NULL
+);
+
